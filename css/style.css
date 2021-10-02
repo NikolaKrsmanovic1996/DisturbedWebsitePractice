@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Ephesis&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav,
+ul {
+  margin: 0;
+}
+.nav,
+li {
+  display: inline;
+}
+.nav,
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20.2px;
+}
+.nav-header-main a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-header-main {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.nav-header-main,
+li {
+  padding: 0 5%;
+}
+.main-header {
+  background-image: url(/slike/1c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 90px;
+}
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  margin-top: 50px;
+  color: white;
+  font-family: "Birthstone";
+  font-weight: normal;
+  font-style: normal;
+}
+.band-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 16px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.about-header {
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  font-size: 2.5em;
+  font-family: Railway;
+}
+.about-image-band {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 0px 19px 10px 0px;
+  border-radius: 40%;
+}
+.about-paragraph {
+  font-size: 22.5px;
+  font-family: Railway;
+  color: black;
+}
+.about-paragraph-2 {
+  font-size: 22.5px;
+  font-family: Railway;
+  color: black;
+}
+.main-footer {
+  background-color: black;
+  color: white;
+  padding: 0.25em 0em;
+}
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+.main-footer-container a:hover {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+.band-name-footer {
+  font-size: 4em;
+  margin-top: 50px;
+  color: white;
+  font-family: "RailWay";
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*Header Elements Css*/
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+.btn-header {
+  margin: 0.5em 15% 2em 35%;
+  color: white;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.btn-header:hover {
+  background-color: rgba(42, 187, 155, 1);
+}
+.btn-play {
+  background-color: black;
+  margin: 0 auto;
+  display: block;
+  color: #2d9cdb;
+  font-size: 4em;
+  border-radius: 50%;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.index-header {
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  font-size: 2.5em;
+  font-family: Railway;
+}
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.tour-row:last-child {
+  border-bottom: none;
+}
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+  padding-bottom: 1em;
+}
+.tour-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+.tour-city {
+  width: 24%;
+}
+.tour-arena {
+  margin-left: 50px;
+  width: 42%;
+}
+.tour-btn {
+  max-width: 19%;
+}
+.btn-primary {
+  background-color: #32bae7;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+.btn.btn-primary:hover {
+  background-color: black;
+}
