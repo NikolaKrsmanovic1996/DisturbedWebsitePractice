@@ -5,71 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Store</title>
-    <!-- icons-->
+    <!-- Icons -->
     <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <!-- HEADER -->
+    <header class="main-header">
+      <nav class="nav-header-main">
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./store.html">Store</a></li>
           <li><a href="./about.html">About</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>The Disturbed</h1>
+
+      <h1 class="band-name band-name-large">The Disturbed</h1>
     </header>
-    <section>
-      <!-- MUSIC CONTENT-->
-      <h1>Music</h1>
+    <!-- Section-->
+    <section class="content-section container">
+      <h1 class="store-header">Music</h1>
       <!-- Album 1-->
-      <div>
-        <div>
-          <strong>Album 1</strong>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img class="shop-item-img" src="./slike/albmu1.jpg" alt="slika1" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">12,59$</span>
+            <button type="button" class="btn btn-primary shop-item-button">
+              Add to Cart
+            </button>
+          </div>
         </div>
-        <img src="./slike/albmu1.jpg" alt="slika1" />
+        <!-- Album 2-->
         <div>
-          <span>12,59$</span>
-          <button type="button">Add to Cart</button>
+          <div class="shop-item">
+            <span class="shop-item-title">Album 2</span>
+          </div>
+          <img class="shop-item-img" src="./slike/album2.jpg" alt="slika1" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">12,59$</span>
+            <button type="button" class="btn btn-primary shop-item-button">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <!-- Album 3-->
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">Album 3</span>
+          </div>
+          <img class="shop-item-img" src="./slike/album3.jpg" alt="slika1" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">12,59$</span>
+            <button type="button" class="btn btn-primary shop-item-button">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <!-- Album 4-->
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">Album 4</span>
+          </div>
+          <img class="shop-item-img" src="./slike/album4.jpg" alt="slika1" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">12,59$</span>
+            <button type="button" class="btn btn-primary shop-item-button">
+              Add to Cart
+            </button>
+          </div>
         </div>
       </div>
-      <!-- Album 2-->
-      <div>
+    </section>
+    <section class="content-section container">
+      <!-- MERCH CONTENT-->
+      <h1 class="store-header">Merch</h1>
+    </section>
+    <div class="shop-items">
+      <div class="shop-item">
         <div>
-          <strong>Album 2</strong>
-        </div>
-        <img
-          src="./slike/album2.jpg"
-          width="220px"
-          height="220px"
-          alt="slika1"
-        />
-        <div>
-          <span>12,59$</span>
-          <button type="button">Add to Cart</button>
-        </div>
-      </div>
-      <!-- Album 3-->
-      <div>
-        <div>
-          <strong>Album 3</strong>
-        </div>
-        <img
-          src="./slike/album3.jpg"
-          width="220px"
-          height="220px"
-          alt="slika1"
-        />
-        <div>
-          <span>12,59$</span>
-          <button type="button">Add to Cart</button>
-        </div>
-      </div>
-      <!-- Album 4-->
-      <div>
-        <div>
-          <strong>Album 4</strong>
+          <span class="shop-item-title">T-Shirt</span>
         </div>
         <img
           src="./slike/album4.jpg"
@@ -77,34 +93,29 @@
           height="220px"
           alt="slika1"
         />
-        <div>
-          <span>12,59$</span>
-          <button type="button">Add to Cart</button>
+        <div class="shop-item-details">
+          <span class="shop-item-price">12,59$</span>
+          <button type="button" class="btn btn-primary shop-item-button">
+            Add to Cart
+          </button>
         </div>
       </div>
-    </section>
-    <section>
-      <!-- MERCH CONTENT-->
-      <h1>Merch</h1>
-    </section>
-    <div>
-      <div>
-        <strong>T-Shirt</strong>
-      </div>
-      <img src="./slike/album4.jpg" width="220px" height="220px" alt="slika1" />
-      <div>
-        <span>12,59$</span>
-        <button type="button">Add to Cart</button>
-      </div>
-    </div>
-    <div>
-      <div>
-        <strong>Coffe Cup</strong>
-      </div>
-      <img src="./slike/album4.jpg" width="220px" height="220px" alt="slika1" />
-      <div>
-        <span>12,59$</span>
-        <button type="button">Add to Cart</button>
+      <div class="shop-item">
+        <div>
+          <span class="shop-item-title">Coffe Cup</span>
+        </div>
+        <img
+          src="./slike/album4.jpg"
+          width="220px"
+          height="220px"
+          alt="slika1"
+        />
+        <div class="shop-item-details">
+          <span class="shop-item-price">155,59$</span>
+          <button type="button" class="btn btn-primary shop-item-button">
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
     <section>
@@ -147,28 +158,30 @@
       <button type="button">PURCHASE</button>
     </div>
     <hr />
-    <footer>
-      <!-- LINKS -->
-      <ul>
-        <li i class="fab fa-facebook">
-          <a href="https://www.facebook.com/Disturbed" target="_blank"
-            >&nbsp Facebook</a
-          >
-        </li>
-        <br />
-        <li i class="fab fa-youtube">
-          <a
-            href="https://www.youtube.com/watch?v=8nW-IPrzM1g&list=RDzPonioDYnoY&index=16"
-            target="_blank"
-            >&nbsp Youtube</a
-          >
-        </li>
-        <br />
-        <li i class="fab fa-spotify">
-          <a href="https://wwww.spotify.com" target="_blank">&nbsp Spotify</a>
-        </li>
-        <br />
-      </ul>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name-footer">The Disturbed</h3>
+        <ul class="nav footer-nav">
+          <li i class="fab fa-facebook">
+            <a href="https://www.facebook.com/Disturbed" target="_blank"
+              >&nbsp Facebook</a
+            >
+          </li>
+          <br />
+          <li i class="fab fa-youtube">
+            <a
+              href="https://www.youtube.com/watch?v=8nW-IPrzM1g&list=RDzPonioDYnoY&index=16"
+              target="_blank"
+              >&nbsp Youtube</a
+            >
+          </li>
+          <br />
+          <li i class="fab fa-spotify">
+            <a href="https://wwww.spotify.com" target="_blank">&nbsp Spotify</a>
+          </li>
+          <br />
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
