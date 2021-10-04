@@ -6,7 +6,13 @@
   font-family: Raleway;
   color: #777;
 }
-
+.background {
+  background-image: url(/slike/pozadina1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 html,
 body {
   margin: 0;
@@ -142,12 +148,12 @@ li {
 }
 .btn-header {
   margin: 0.5em 15% 2em 35%;
-  color: white;
+  color: black;
   border: 2px solid #2d9cdb;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 0;
   font-size: 1.5em;
-  font-weight: lighter;
+  font-weight: bold;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -187,7 +193,7 @@ li {
   padding-bottom: 1em;
 }
 .tour-date {
-  color: #555;
+  color: black;
   font-weight: bold;
   width: 11%;
 }
@@ -197,6 +203,8 @@ li {
 .tour-arena {
   margin-left: 50px;
   width: 42%;
+  color: black;
+  font-weight: bold;
 }
 .tour-btn {
   max-width: 19%;
@@ -242,6 +250,7 @@ li {
   display: flex;
   align-items: center;
   padding: 5px;
+  flex-wrap: wrap;
 }
 .shop-item-price {
   flex-grow: 1;
@@ -251,4 +260,101 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+/* Cart Items.............................................................................................................*/
+.cart-header {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #333;
+}
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.cart-row {
+  display: flex;
+}
+.cart-item {
+  width: 45%;
+}
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+.cart-quantity {
+  width: 35%;
+}
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+.cart-item-img {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-danger {
+  color: white;
+  background-color: red;
+  font-size: 0.9em;
+  margin-left: 22px;
+  font-family: Railway;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+.cart-quantity-input {
+  height: 34px;
+  width: 80px;
+  border-radius: 10px;
+  border-radius: 1px solid #2d9cdb;
+  margin-left: 55px;
+  padding: 0;
+  color: black;
+  font-size: 1.1em;
+  text-align: center;
+}
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column {
+  border: none;
+}
+.cart-total {
+  text-align: end;
+}
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 25px;
+  font-family: Railway;
+}
+.btn-purchase {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Railway;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 55px;
+}
+.btn-purchase:hover {
+  background-color: rgba(38, 166, 91, 1);
+}
+.cart-total-price {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
 }
